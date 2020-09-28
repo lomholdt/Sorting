@@ -1,0 +1,9 @@
+/Users/jonas/code/Sorting/src/Sorting/bin/Debug/netstandard2.1/Sorting.deps.json
+/Users/jonas/code/Sorting/src/Sorting/bin/Debug/netstandard2.1/Sorting.dll
+/Users/jonas/code/Sorting/src/Sorting/bin/Debug/netstandard2.1/Sorting.pdb
+/Users/jonas/code/Sorting/src/Sorting/obj/Debug/netstandard2.1/Sorting.csprojAssemblyReference.cache
+/Users/jonas/code/Sorting/src/Sorting/obj/Debug/netstandard2.1/Sorting.AssemblyInfoInputs.cache
+/Users/jonas/code/Sorting/src/Sorting/obj/Debug/netstandard2.1/Sorting.AssemblyInfo.cs
+/Users/jonas/code/Sorting/src/Sorting/obj/Debug/netstandard2.1/Sorting.csproj.CoreCompileInputs.cache
+/Users/jonas/code/Sorting/src/Sorting/obj/Debug/netstandard2.1/Sorting.dll
+/Users/jonas/code/Sorting/src/Sorting/obj/Debug/netstandard2.1/Sorting.pdb
