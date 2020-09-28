@@ -1,5 +1,4 @@
 using Xunit;
-using Sorting;
 
 namespace Sorting.UnitTest
 {

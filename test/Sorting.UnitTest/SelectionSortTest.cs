@@ -3,16 +3,16 @@ using Xunit;
 
 namespace Sorting.UnitTest
 {
-  public abstract class InsertionSortTest
+  public abstract class SelectionSortTest
   {
-    private readonly InsertionSort _sut;
+    private readonly SelectionSort _sut;
 
-    public InsertionSortTest()
+    public SelectionSortTest()
     {
-        _sut = new InsertionSort();
+        _sut = new SelectionSort();
     }
 
-    public sealed class When_creating_instance : InsertionSortTest
+    public sealed class When_creating_instance : SelectionSortTest
     {
       [Fact]
       public void It_sorts_an_array_of_integers()
