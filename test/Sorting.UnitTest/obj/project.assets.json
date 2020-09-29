@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v5.0": {
+    ".NETCoreApp,Version=v3.1": {
       "Microsoft.CodeCoverage/16.7.1": {
         "type": "package",
         "compile": {
@@ -1703,6 +1703,7 @@
       "type": "package",
       "path": "microsoft.csharp/4.0.1",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2078,7 +2079,9 @@
       "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "type": "package",
       "path": "newtonsoft.json/9.0.1",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -2799,6 +2802,7 @@
       "type": "package",
       "path": "system.dynamic.runtime/4.0.11",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4509,6 +4513,7 @@
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
+        ".nupkg.metadata",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5380,6 +5385,7 @@
       "type": "package",
       "path": "xunit/2.3.1",
       "files": [
+        ".nupkg.metadata",
         "xunit.2.3.1.nupkg.sha512",
         "xunit.nuspec"
       ]
@@ -5389,6 +5395,7 @@
       "type": "package",
       "path": "xunit.abstractions/2.0.1",
       "files": [
+        ".nupkg.metadata",
         "lib/net35/xunit.abstractions.dll",
         "lib/net35/xunit.abstractions.xml",
         "lib/netstandard1.0/xunit.abstractions.dll",
@@ -5401,7 +5408,9 @@
       "sha512": "pEjPJ/pd+r9blGBJ9bXg961phkAiCl4k2DwxwWGEZyYC/7Tb1xJ1az0H18uGANX7zFIkvE5ZO1eZZ4vU7gny7w==",
       "type": "package",
       "path": "xunit.analyzers/0.7.0",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
         "analyzers/dotnet/cs/xunit.analyzers.dll",
         "tools/install.ps1",
         "tools/uninstall.ps1",
@@ -5414,6 +5423,7 @@
       "type": "package",
       "path": "xunit.assert/2.3.1",
       "files": [
+        ".nupkg.metadata",
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
         "xunit.assert.2.3.1.nupkg.sha512",
@@ -5425,6 +5435,7 @@
       "type": "package",
       "path": "xunit.core/2.3.1",
       "files": [
+        ".nupkg.metadata",
         "build/xunit.core.props",
         "build/xunit.core.targets",
         "build/xunit.execution.desktop.dll",
@@ -5439,6 +5450,7 @@
       "type": "package",
       "path": "xunit.extensibility.core/2.3.1",
       "files": [
+        ".nupkg.metadata",
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.dll.tdnet",
         "lib/netstandard1.1/xunit.core.xml",
@@ -5453,6 +5465,7 @@
       "type": "package",
       "path": "xunit.extensibility.execution/2.3.1",
       "files": [
+        ".nupkg.metadata",
         "lib/net452/xunit.execution.desktop.dll",
         "lib/net452/xunit.execution.desktop.xml",
         "lib/netstandard1.1/xunit.execution.dotnet.dll",
@@ -5466,6 +5479,7 @@
       "type": "package",
       "path": "xunit.runner.visualstudio/2.3.1",
       "files": [
+        ".nupkg.metadata",
         "build/_common/xunit.abstractions.dll",
         "build/_common/xunit.runner.reporters.net452.dll",
         "build/_common/xunit.runner.utility.net452.dll",
@@ -5495,7 +5509,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v5.0": [
+    ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "Sorting >= 1.0.0",
       "xunit >= 2.3.1",
@@ -5522,13 +5536,13 @@
         "/Users/jonas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
+        "netcoreapp3.1": {
           "projectReferences": {
             "/Users/jonas/code/Sorting/src/Sorting/Sorting.csproj": {
               "projectPath": "/Users/jonas/code/Sorting/src/Sorting/Sorting.csproj"
@@ -5543,7 +5557,7 @@
       }
     },
     "frameworks": {
-      "net5.0": {
+      "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5573,7 +5587,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100-preview.4.20258.7/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
       }
     }
   }
