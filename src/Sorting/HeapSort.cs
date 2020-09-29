@@ -46,10 +46,5 @@ namespace Sorting
                 Heapify(arr, count, largest);
             }
         }
-
-        private void SiftDown(int[] arr, int start, int end)
-        {
-
-        }
     }
 }
