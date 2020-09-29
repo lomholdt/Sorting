@@ -1,4 +1,4 @@
-# Sorting 🥑
+# C# Sorting 🥑
 
 This is a playground solution to implement some sorting algorithms in C#.
 
@@ -8,3 +8,4 @@ This is a playground solution to implement some sorting algorithms in C#.
 - [x] Selection Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
+- [x] Heap Sort
